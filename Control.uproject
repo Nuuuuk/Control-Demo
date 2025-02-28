@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.5",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Control",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "HoudiniLiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "HoudiniNiagara",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/79d2dd58387c4696a0f3458275f739d6"
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
+		},
+		{
+			"Name": "RestartEditor",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/a00eb1e478ae4a8fb655aa22f9125b07"
+		}
+	]
+}
